@@ -25,6 +25,17 @@ public class PlayerScript : MonoBehaviour {
 		//每个方向上移动
 		movement = new Vector2(speed.x * inputX,
 		                       speed.y * inputY);
+
+		//5 - Shooting
+		bool shoot = Input.GetButtonDown("Fire1");
+		shoot |= Input.GetButtonDown("Fire2");
+
+		if (shoot) {
+			WeaponScript weapon = GetComponent<WeaponScript>();
+
+			weapon.Attack(false);
+		}
+
 	}
 
 	/// <summary>
