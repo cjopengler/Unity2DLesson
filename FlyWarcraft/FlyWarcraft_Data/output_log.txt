@@ -11,7 +11,7 @@ Platform assembly: D:\GitHub\Unity2DLesson\FlyWarcraft\FlyWarcraft_Data\Managed\
 Loading D:\GitHub\Unity2DLesson\FlyWarcraft\FlyWarcraft_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: D:\GitHub\Unity2DLesson\FlyWarcraft\FlyWarcraft_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading D:\GitHub\Unity2DLesson\FlyWarcraft\FlyWarcraft_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.073 seconds
+- Completed reload, in  0.093 seconds
 desktop: 1280x800 60Hz; virtual: 1280x800 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
