@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\FlighterScript.cs" />
      <Compile Include="Assets\Scripts\MoveScript.cs" />
+     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
      <Compile Include="Assets\Scripts\WeaponScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
