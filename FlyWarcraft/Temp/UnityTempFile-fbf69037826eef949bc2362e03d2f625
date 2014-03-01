@@ -38,5 +38,7 @@
 -define:UNITY_EDITOR_WIN
 -define:UNITY_TEAM_LICENSE
 Assets/Scripts/FlighterScript.cs
+Assets/Scripts/MoveScript.cs
+Assets/Scripts/WeaponScript.cs
 -r:"D:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
 -r:"D:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"

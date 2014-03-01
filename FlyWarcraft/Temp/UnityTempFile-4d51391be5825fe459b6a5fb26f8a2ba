@@ -2,8 +2,7 @@
 -target:library
 -nowarn:0169
 -out:Temp/Assembly-CSharp.dll
--r:"D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
--r:"D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"D:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WindowsStandalonePlayer/Managed/UnityEngine.dll"
 -define:UNITY_STANDALONE_WIN
 -define:ENABLE_MICROPHONE
 -define:ENABLE_TEXTUREID_MAP
@@ -33,10 +32,10 @@
 -define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
 -define:UNITY_4_3_3
 -define:UNITY_4_3
+-define:DEVELOPMENT_BUILD
 -define:ENABLE_PROFILER
--define:UNITY_EDITOR
--define:UNITY_EDITOR_WIN
--define:UNITY_TEAM_LICENSE
 Assets/Scripts/FlighterScript.cs
+Assets/Scripts/MoveScript.cs
+Assets/Scripts/WeaponScript.cs
 -r:"D:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
 -r:"D:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"

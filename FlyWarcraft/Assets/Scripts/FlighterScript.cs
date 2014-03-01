@@ -25,6 +25,12 @@ public class FlighterScript : MonoBehaviour {
 
 
 		movement = new Vector2(speed.x * inputX, speed.y * inputY);
+
+		WeaponScript weapon = GetComponent<WeaponScript>();
+
+		if (weapon != null) {
+			weapon.Fire();
+		}
 	}
 
 	void FixedUpdate() {
