@@ -19,9 +19,18 @@ public class ScrollingScript : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
-	
+	protected virtual void Update () {
+		Vector3 movement = new Vector3(speed.x * direction.x,
+		                               speed.y * direction.y,
+		                               0);
+		movement *= Time.deltaTime;
+
+		transform.Translate(movement);
+
+		if (isLinkedToCamera) {
+			Camera.main.transform.Translate(movement);
+		}
 	}
 }
