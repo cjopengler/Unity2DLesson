@@ -38,6 +38,7 @@ public class BackgroundScrollingScript : ScrollingScript {
 	protected override void Update () {
 		base.Update();
 
+	
 		if (isLooping) {
 			Transform firstChild = backgroundParts.FirstOrDefault();
 
